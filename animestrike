@@ -71,3 +71,52 @@ for i, v in pairs(codes) do
 end   
    end,
 })
+
+
+local Button = MainTab:CreateButton({
+   Name = "Join JJK",
+   Callback = function()
+local args = {
+    [1] = "KaisenRaid",
+    [2] = "JoinMode"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Bridge"):FireServer(unpack(args))
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Join HXH",
+   Callback = function()
+local args = {
+    [1] = "HunterRaid",
+    [2] = "JoinMode"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Bridge"):FireServer(unpack(args))
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Start JJK",
+   Callback = function()
+local args = {
+    [1] = "KaisenRaid",
+    [2] = "StartMode"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Bridge"):FireServer(unpack(args))
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Start HXH",
+   Callback = function()
+local args = {
+    [1] = "HunterRaid",
+    [2] = "StartMode"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Bridge"):FireServer(unpack(args))
+   end,
+})
