@@ -61,7 +61,8 @@ local codes = {
     "26UPDATES!!",
     "UPDATE27",
     "Galaxy2",
-    "UPD29"
+    "UPD29",
+    "UPD30"
 }
 
 for i, v in pairs(codes) do
