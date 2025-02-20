@@ -48,16 +48,6 @@ local args = {
 }
 
 local codes = {
-    "Upd17",
-    "Upd18",
-    "Upd19",
-    "Xmasupdate",
-    "Upd21part1",
-    "Mini21.5",
-    "Update22",
-    "Update23",
-    "UPDATE24",
-    "UPDATE25",
     "26UPDATES!!",
     "UPDATE27",
     "Galaxy2",
