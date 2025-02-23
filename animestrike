@@ -111,3 +111,51 @@ local args = {
 game:GetService("ReplicatedStorage"):WaitForChild("Bridge"):FireServer(unpack(args))
    end,
 })
+
+local Button = MainTab:CreateButton({
+   Name = "Start Infinity",
+   Callback = function()
+local args = {
+    [1] = "InfinityTower",
+    [2] = "StartMode"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Bridge"):FireServer(unpack(args))
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Join Infinity",
+   Callback = function()
+local args = {
+    [1] = "InfinityTower",
+    [2] = "JoinMode"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Bridge"):FireServer(unpack(args))
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Join EclipseChallenge",
+   Callback = function()
+local args = {
+    [1] = "EclipseChallenge",
+    [2] = "JoinMode"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Bridge"):FireServer(unpack(args))
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Start EclipseChallenge",
+   Callback = function()
+local args = {
+    [1] = "EclipseChallenge",
+    [2] = "StartMode"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Bridge"):FireServer(unpack(args))
+   end,
+})
