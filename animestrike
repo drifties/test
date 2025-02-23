@@ -159,3 +159,15 @@ local args = {
 game:GetService("ReplicatedStorage"):WaitForChild("Bridge"):FireServer(unpack(args))
    end,
 })
+
+local Button = MainTab:CreateButton({
+   Name = "Join TrialInsane",
+   Callback = function()
+local args = {
+    [1] = "TrialInsane",
+    [2] = "JoinMode"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Bridge"):FireServer(unpack(args))
+   end,
+})
